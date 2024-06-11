@@ -8,9 +8,9 @@
     --borda: #0075ff;
     --roboto: 'Roboto', sans-serif;
     --roboto-mono: 'Roboto Mono', monospace;  
-
 }
-body {
+
+body{
     color: var(--branco);
     background-color: var(--cor-de-fundo);
      font-family: var(--roboto);
@@ -19,6 +19,14 @@ body {
 .titulo-principal{
     font-family: var(--roboto-mono);
     font-size: 32px;
-
 }
     
+.titulo-secundario{
+   font-size: 24px;
+
+}
+
+.conteudo-titulo{
+    text-align: center;
+    margin-top: 80px;
+}
